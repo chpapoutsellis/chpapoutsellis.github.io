@@ -2,15 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle:  <a href='https://ucsd.edu/'>University of California San Diego</a> (UCSD), <a href='https://mae.ucsd.edu/'>Department of Mechanical and Aerospace Engineering</a> (MAE)
+subtitle:  <a href='https://ucsd.edu/'>University of California San Diego</a> (UCSD), <a href='https://mae.ucsd.edu/'>Mechanical and Aerospace Engineering</a> (MAE)
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>Department of Mechanical and Aerospace Engineering</p>
-    <p>University of California San Diego | 9500 Gilman Drive | La Jolla, CA 92093-0411</p>
+    <p>University of California San Diego</p> 
+    <p>9500 Gilman Drive</p>
+    <p>La Jolla, CA 92093-0411</p>
     
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts

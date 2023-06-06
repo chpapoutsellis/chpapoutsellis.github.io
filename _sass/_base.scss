@@ -55,6 +55,7 @@ table.table a {
 figure,
 img {
   max-width: 400px;
+  margin-left: 3.5em;
 }
 
 blockquote {
@@ -304,10 +305,10 @@ blockquote {
 // Social (bottom)
 
 .social {
-  text-align: center;
+  text-align: left;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 3rem;
 
     a {
       i::before {
