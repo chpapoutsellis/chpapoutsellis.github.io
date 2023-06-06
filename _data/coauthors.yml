@@ -10,13 +10,6 @@
   - firstname: ["Nathan", "N."]
     url: https://en.wikipedia.org/wiki/Nathan_Rosen
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
-
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
-
 "Przibram":
   - firstname: ["Karl"]
     url: https://link.springer.com/article/10.1007/s00016-019-00242-z
@@ -32,3 +25,13 @@
 "Planck":
   - firstname: ["Max"]
     url: https://en.wikipedia.org/wiki/Max_Planck
+
+#"Athanassoulis":
+#  - firstname: ["Gerassimos", "G."]
+#    url: https://gerassimos.athanassoulis.net/
+
+#"Grisouard":
+#  - firstname: ["Nicolas"]
+#    url: https://sites.physics.utoronto.ca/nicolasgrisouard
+
+ 
