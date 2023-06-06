@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle:  <a href='https://ucsd.edu/'>University of California San Diego</a> (UCSD), <a href='https://mae.ucsd.edu/'>Department of Mechanical and Aerospace Engineering</a> (MAE). Address. Contacts. Moto. Etc.
+subtitle:  <a href='https://ucsd.edu/'>University of California San Diego</a> (UCSD), <a href='https://mae.ucsd.edu/'>Department of Mechanical and Aerospace Engineering</a> (MAE)
 
 profile:
   align: right
@@ -18,7 +18,7 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I am an Assistant Project Scientist at UCSD. My research interests lie at the interface between Fluid Mechanics and Applied Mathematics. I am interested in the mathematical modelling of phenomena that emerge in oceanic flows, like surface waves and internal waves. I also have a keen interest in the global analysis of dynamical systems. 
+I am an Assistant Project Scientist at UCSD. I am interested in the mathematical modelling of phenomena that emerge in oceanic flows, like surface waves and internal waves. I also have a keen interest in the global analysis of dynamical systems. 
 
 [comment]: <> Prior to this, I was a Computational Imaging Scientist (permanent) at the [Scientific Computing Department (SCD)](https://www.scd.stfc.ac.uk/Pages/home.aspx) in the [Science Technology Facilities Council (STFC)](https://stfc.ukri.org/). 
 

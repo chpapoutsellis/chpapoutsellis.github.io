@@ -54,7 +54,7 @@ table.table a {
 
 figure,
 img {
-  max-width: 90vw;
+  max-width: 400px;
 }
 
 blockquote {
@@ -132,7 +132,7 @@ blockquote {
 }
 
 .profile.float-right {
-  margin-left: 1rem;
+  margin-left: 5rem;
 }
 
 .profile.float-left {
@@ -307,7 +307,7 @@ blockquote {
   text-align: center;
 
   .contact-icons {
-    font-size: 2rem;
+    font-size: 4rem;
 
     a {
       i::before {
