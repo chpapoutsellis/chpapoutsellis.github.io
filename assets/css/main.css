@@ -144,7 +144,7 @@ table.table a:hover:after :not(.nav-item.dropdown) {
 
 figure,
 img {
-  max-width: 90vw;
+  max-width: 400px;
 }
 
 blockquote {
@@ -204,7 +204,7 @@ blockquote {
 }
 
 .profile.float-right {
-  margin-left: 1rem;
+  margin-left: 5rem;
 }
 
 .profile.float-left {
@@ -338,7 +338,7 @@ blockquote {
   text-align: center;
 }
 .social .contact-icons {
-  font-size: 2rem;
+  font-size: 4rem;
 }
 .social .contact-icons a i::before {
   color: var(--global-text-color);
