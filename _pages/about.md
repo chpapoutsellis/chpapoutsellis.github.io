@@ -13,6 +13,7 @@ profile:
     <p>University of California San Diego</p> 
     <p>9500 Gilman Drive</p>
     <p>La Jolla, CA 92093-0411</p>
+    <p> EBU2 room 568 </p>
     
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -25,7 +26,7 @@ I am an Assistant Project Scientist at UCSD. I am interested in the mathematical
 
 I obtained a 5-year diploma and a Master's in Mathematical modelling in Modern Technologies from the  [School of Applied Mathematical and Physical Sciences](http://semfe.ntua.gr/en/) of the [National Technical University of Athens](https://www.ntua.gr/en/) (NTUA). I obtained my PhD from the [School of Naval Architecture and Marine Engineering](https://www.ntua.gr/en/schools/item/8-school-of-naval-architecture-and-marine-engineering) of the NTUA in 2016, under the supervision of Professor [Gerassimos Athanassoulis]( https://gerassimos.athanassoulis.net/). 
 
-I have worked as a postodoctoral researcher in France, in the [Institut de recherches sur les phénomènes hors équilibre](https://irphe.univ-amu.fr/) (IRPHE)/[Laboratoire d'Hydraulique Saint-Venant](https://www.saint-venant-lab.fr/) (LHSV), the [Centre Européen de Recherche et d’Enseignement des Géosciences de l’Environnement](https://www.cerege.fr/fr/) (CEREGE), the [Institut de mécanique des fluides de Toulouse](https://www.imft.fr/en/accueil-english/) (IMFT) and the [École nationale supérieure de techniques avancées Bretagne](https://www.ensta-bretagne.fr/fr) (ENSTA Bretagne).
+I have worked as a postodoctoral researcher in France in the [Institut de recherches sur les phénomènes hors équilibre](https://irphe.univ-amu.fr/) (IRPHE)/[Laboratoire d'Hydraulique Saint-Venant](https://www.saint-venant-lab.fr/) (LHSV), the [Centre Européen de Recherche et d’Enseignement des Géosciences de l’Environnement](https://www.cerege.fr/fr/) (CEREGE), the [Institut de mécanique des fluides de Toulouse](https://www.imft.fr/en/accueil-english/) (IMFT) and the [École nationale supérieure de techniques avancées Bretagne](https://www.ensta-bretagne.fr/fr) (ENSTA Bretagne).
 
 
 For more details please see [cv](https://epapoutsellis.github.io/cv/) (updated April 2023).
