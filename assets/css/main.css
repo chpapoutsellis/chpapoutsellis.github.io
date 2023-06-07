@@ -85,7 +85,7 @@ body.sticky-bottom-footer {
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 1500px;
 }
 
 .profile img {
@@ -122,10 +122,10 @@ hr {
 
 table td,
 table th {
-  color: var(--global-text-color);
-}
-table td {
   font-size: 1rem;
+}
+table th {
+  font-weight: bold;
 }
 
 a,
@@ -142,10 +142,13 @@ table.table a:hover:after :not(.nav-item.dropdown) {
   width: 100%;
 }
 
+.table-dark {
+  background-color: transparent;
+}
+
 figure,
 img {
-  max-width: 400px;
-  margin-left: 3.5em;
+  max-width: 90vw;
 }
 
 blockquote {
@@ -195,8 +198,8 @@ blockquote {
   width: 100%;
 }
 .profile .address {
-  margin-bottom: 5px;
-  margin-top: 5px;
+  margin-bottom: 1px;
+  margin-top: 1px;
   font-family: monospace;
 }
 .profile .address p {
@@ -205,16 +208,17 @@ blockquote {
 }
 
 .profile.float-right {
-  margin-left: 5rem;
+  margin-left: 1rem;
 }
 
 .profile.float-left {
-  margin-right: 1rem;
+  margin-right: 20rem;
 }
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 50%;
+    text-align: center;
   }
   .profile .address p {
     display: block;
@@ -234,7 +238,7 @@ blockquote {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 3px solid var(--global-divider-color);
+  border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
 }
@@ -336,7 +340,7 @@ blockquote {
 }
 
 .social {
-  text-align: left;
+  text-align: center;
 }
 .social .contact-icons {
   font-size: 3rem;
@@ -390,7 +394,6 @@ footer.sticky-bottom {
 .cv .card .list-group-item .badge {
   color: var(--global-card-bg-color) !important;
   background-color: var(--global-theme-color) !important;
-  text-transform: none !important;
 }
 
 @media (min-width: 768px) {
@@ -426,6 +429,10 @@ footer.sticky-bottom {
   color: var(--global-text-color-light);
 }
 
+.post-title mjx-container[jax=CHTML][display=true] {
+  display: unset;
+}
+
 .post-list {
   margin: 0;
   margin-bottom: 40px;
@@ -454,6 +461,9 @@ footer.sticky-bottom {
 }
 .post-list li a:hover {
   color: var(--global-theme-color);
+}
+.post-list li mjx-container[jax=CHTML][display=true] {
+  display: unset;
 }
 
 .pagination .page-item .page-link {
@@ -536,7 +546,7 @@ footer.sticky-bottom {
   margin-top: 0;
 }
 .publications ol.bibliography li {
-  margin-bottom: -1rem;
+  margin-bottom: 1rem;
 }
 .publications ol.bibliography li .preview {
   width: 100%;
@@ -545,7 +555,7 @@ footer.sticky-bottom {
 }
 .publications ol.bibliography li .abbr {
   height: 2rem;
-  margin-bottom: 0rem;
+  margin-bottom: 0.5rem;
 }
 .publications ol.bibliography li .abbr abbr {
   display: inline-block;
@@ -566,6 +576,9 @@ footer.sticky-bottom {
 .publications ol.bibliography li .title {
   font-weight: bolder;
 }
+.publications ol.bibliography li .author a {
+  border-bottom: 1px dashed var(--global-theme-color);
+}
 .publications ol.bibliography li .author a:hover {
   border-bottom-style: solid;
   text-decoration: none;
@@ -584,13 +597,12 @@ footer.sticky-bottom {
   border-bottom: 1px dashed var(--global-text-color);
 }
 .publications ol.bibliography li .links a.btn {
-  text-transform: none;
   color: var(--global-text-color);
   border: 1px solid var(--global-text-color);
-  padding-left: 0.2rem;
-  padding-right: 0.2rem;
-  padding-top: 0.01rem;
-  padding-bottom: 0.01rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
   margin-left: 0;
 }
 .publications ol.bibliography li .links a.btn:hover {
@@ -643,8 +655,6 @@ footer.sticky-bottom {
 }
 .publications ol.bibliography li div.abstract.hidden.open {
   border-color: var(--global-text-color);
-  margin-top: -2rem;
-  margin-bottom: 2rem;
 }
 
 figure.highlight {
@@ -702,6 +712,9 @@ html.transition *:after {
   border-left: 5px solid var(--global-theme-color);
   padding: 8px;
 }
+.post .post-content blockquote p {
+  margin-bottom: 0;
+}
 
 progress {
   /* Positioning */
@@ -711,7 +724,7 @@ progress {
   z-index: 10;
   /* Dimensions */
   width: 100%;
-  height: 2px;
+  height: 1px;
   /* Reset the appearance */
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -721,7 +734,7 @@ progress {
   /* Progress bar container for Firefox/IE10  */
   background-color: transparent;
   /* Progress bar value for IE10  */
-  color: var(--global-bg-color);
+  color: var(--global-theme-color);
 }
 
 progress::-webkit-progress-bar {
@@ -729,11 +742,11 @@ progress::-webkit-progress-bar {
 }
 
 progress::-webkit-progress-value {
-  background-color: var(--global-bg-color);
+  background-color: var(--global-theme-color);
 }
 
 progress::-moz-progress-bar {
-  background-color: var(--global-bg-color);
+  background-color: var(--global-theme-color);
 }
 
 .progress-container {
@@ -747,36 +760,133 @@ progress::-moz-progress-bar {
 }
 
 .progress-bar {
-  background-color: var(--global-bg-color);
+  background-color: var(--global-theme-color);
   width: 0%;
   display: block;
   height: inherit;
 }
 
-pre {
-  padding: 8px 12px;
+/* Copy button */
+.code-display-wrapper {
   position: relative;
-  /* Copy code to clipboard button */
 }
-pre .copy {
+.code-display-wrapper .copy {
   background: var(--global-card-bg-color);
   border-color: var(--global-bg-color);
   border-radius: 0.3rem;
-  border-style: solid;
+  border-style: none;
   color: var(--global-text-color);
   font-size: medium;
   opacity: 0;
   position: absolute;
-  right: 0.25rem;
-  top: 0.25rem;
+  right: 0.5rem;
+  top: 0.5rem;
 }
-pre .copy:active, pre .copy:focus, pre .copy:hover {
+.code-display-wrapper:active .copy, .code-display-wrapper:focus .copy, .code-display-wrapper:hover .copy {
   color: var(--global-hover-color);
   opacity: 1;
 }
-pre:active .copy, pre:focus .copy, pre:hover .copy {
+
+.btn-group.dropdown .btn {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+.btn-group.dropdown .btn-secondary.dropdown-toggle {
+  border: 1px solid var(--global-divider-color);
+}
+.btn-group.dropdown .btn-secondary.dropdown-toggle .page-size {
+  color: inherit;
+}
+.btn-group.dropdown .btn-secondary.dropdown-toggle:not(.active) {
+  background-color: var(--global-bg-color) !important;
+  color: var(--global-text-color);
+}
+.btn-group.dropdown .btn-secondary.dropdown-toggle:hover {
+  background-color: var(--global-hover-color) !important;
+  color: var(--global-hover-text-color) !important;
+}
+.btn-group.dropdown .dropdown-menu {
+  background-color: var(--global-bg-color);
+}
+.btn-group.dropdown .dropdown-item {
+  background-color: var(--global-bg-color);
+  color: var(--global-text-color);
+}
+.btn-group.dropdown .dropdown-item:hover {
   color: var(--global-hover-color);
-  opacity: 1;
+}
+.btn-group.dropdown .dropdown-item.active, .btn-group.dropdown .dropdown-item:active {
+  background-color: var(--global-hover-color);
+  color: var(--global-hover-text-color) !important;
+}
+.btn-group.dropdown .dropdown-item.active:hover, .btn-group.dropdown .dropdown-item:active:hover {
+  color: var(--global-hover-text-color);
+}
+
+/* Table of Contents */
+nav[data-toggle=toc] {
+  top: 5rem;
+}
+nav[data-toggle=toc] .nav .nav > li > a {
+  font-size: 0.75rem;
+}
+nav[data-toggle=toc] .nav > li > a {
+  color: var(--global-text-color);
+  font-size: 0.75rem;
+}
+nav[data-toggle=toc] .nav > li > a:hover {
+  color: var(--global-hover-color);
+  border-left-color: var(--global-hover-color);
+}
+nav[data-toggle=toc] .nav-link.active {
+  color: var(--global-theme-color);
+  border-left-color: var(--global-theme-color);
+  font-size: 0.75rem;
+}
+nav[data-toggle=toc] .nav-link.active:hover {
+  color: var(--global-hover-color);
+  border-left-color: var(--global-hover-color);
+}
+
+/* small screens */
+@media (max-width: 576px) {
+  /* override stickyness so that the navigation does not follow scrolling */
+  nav[data-toggle=toc] {
+    visibility: hidden;
+    height: 0;
+    top: 0;
+  }
+}
+/* Tips, warnings, and dangers blockquotes */
+.post .post-content blockquote.block-tip {
+  border-color: var(--global-tip-block);
+  background-color: var(--global-tip-block-bg);
+}
+.post .post-content blockquote.block-tip p {
+  color: var(--global-tip-block-text);
+}
+.post .post-content blockquote.block-tip h1, .post .post-content blockquote.block-tip h2, .post .post-content blockquote.block-tip h3, .post .post-content blockquote.block-tip h4, .post .post-content blockquote.block-tip h5, .post .post-content blockquote.block-tip h6 {
+  color: var(--global-tip-block-title);
+}
+.post .post-content blockquote.block-warning {
+  border-color: var(--global-warning-block);
+  background-color: var(--global-warning-block-bg);
+}
+.post .post-content blockquote.block-warning p {
+  color: var(--global-warning-block-text);
+}
+.post .post-content blockquote.block-warning h1, .post .post-content blockquote.block-warning h2, .post .post-content blockquote.block-warning h3, .post .post-content blockquote.block-warning h4, .post .post-content blockquote.block-warning h5, .post .post-content blockquote.block-warning h6 {
+  color: var(--global-warning-block-title);
+}
+.post .post-content blockquote.block-danger {
+  border-color: var(--global-danger-block);
+  background-color: var(--global-danger-block-bg);
+}
+.post .post-content blockquote.block-danger p {
+  color: var(--global-danger-block-text);
+}
+.post .post-content blockquote.block-danger h1, .post .post-content blockquote.block-danger h2, .post .post-content blockquote.block-danger h3, .post .post-content blockquote.block-danger h4, .post .post-content blockquote.block-danger h5, .post .post-content blockquote.block-danger h6 {
+  color: var(--global-danger-block-title);
 }
 
 /*******************************************************************************
