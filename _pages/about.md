@@ -20,7 +20,12 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I am an Assistant Project Scientist at UCSD. I am interested in the mathematical modelling of phenomena that emerge in oceanic flows, like surface waves and internal waves. I also have a keen interest in the global analysis of dynamical systems. 
+I am an Assistant Project Scientist at UCSD. I am interested in the mathematical modelling of phenomena that emerge in oceanic flows. My research mainly focuses on 
+- Water Waves
+- Internal Waves
+- Global Analysis of Dynamical Systems
+
+
 
 [comment]: <> Prior to this, I was a Computational Imaging Scientist (permanent) at the [Scientific Computing Department (SCD)](https://www.scd.stfc.ac.uk/Pages/home.aspx) in the [Science Technology Facilities Council (STFC)](https://stfc.ukri.org/). 
 
