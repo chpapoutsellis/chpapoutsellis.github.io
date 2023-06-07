@@ -5,7 +5,7 @@ permalink: /
 subtitle:  <a href='https://ucsd.edu/'>University of California San Diego</a> (UCSD), <a href='https://mae.ucsd.edu/'>Mechanical and Aerospace Engineering</a> (MAE)
 
 profile:
-  align: left
+  align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
@@ -29,6 +29,8 @@ I have worked as a postodoctoral researcher in France, in the [Institut de reche
 
 
 For more details please see [cv](https://epapoutsellis.github.io/cv/) (updated April 2023).
+
+You can contact me at cpapoutsellis@ucsd.edu
 
 [comment]: <> Bla Bla Bla. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture [comment]: <> in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

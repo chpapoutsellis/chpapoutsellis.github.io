@@ -2,9 +2,6 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
-
-
-
 // Typography
 
 p,
@@ -27,14 +24,13 @@ hr {
 }
 
 table {
-
   td,
   th {
-    color: var(--global-text-color);
+    font-size: 1rem;
   }
 
-  td {
-    font-size: 1rem;
+  th {
+    font-weight: bold;
   }
 }
 
@@ -52,10 +48,13 @@ table.table a {
   }
 }
 
+.table-dark {
+  background-color: transparent;
+}
+
 figure,
 img {
-  max-width: 400px;
-  margin-left: 3.5em;
+  max-width: 90vw;
 }
 
 blockquote {
@@ -65,8 +64,6 @@ blockquote {
   padding: 0.5em 10px;
   font-size: 1.2rem;
 }
-
-
 
 // Math
 
@@ -121,8 +118,8 @@ blockquote {
   width: 100%;
 
   .address {
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin-bottom: 1px;
+    margin-top: 1px;
     font-family: monospace;
 
     p {
@@ -133,16 +130,17 @@ blockquote {
 }
 
 .profile.float-right {
-  margin-left: 5rem;
+  margin-left: 1rem;
 }
 
 .profile.float-left {
-  margin-right: 1rem;
+  margin-right: 20rem;
 }
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 50%;
+    text-align: center;
 
     .address {
       p {
@@ -171,7 +169,7 @@ blockquote {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 3px solid var(--global-divider-color);
+  border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
 }
@@ -305,7 +303,7 @@ blockquote {
 // Social (bottom)
 
 .social {
-  text-align: left;
+  text-align: center;
 
   .contact-icons {
     font-size: 3rem;
@@ -374,7 +372,6 @@ footer.sticky-bottom {
       .badge {
         color: var(--global-card-bg-color) !important;
         background-color: var(--global-theme-color) !important;
-        text-transform: none !important;
       }
     }
   }
@@ -421,6 +418,12 @@ footer.sticky-bottom {
   }
 }
 
+.post-title {
+  mjx-container[jax="CHTML"][display="true"] {
+    display: unset;
+  }
+}
+
 .post-list {
   margin: 0;
   margin-bottom: 40px;
@@ -452,6 +455,10 @@ footer.sticky-bottom {
       &:hover {
         color: var(--global-theme-color);
       }
+    }
+
+    mjx-container[jax="CHTML"][display="true"] {
+      display: unset;
     }
   }
 }
@@ -538,8 +545,7 @@ footer.sticky-bottom {
 
 .publications {
   margin-top: 2rem;
-  //font-family:   Tahoma ;
-  
+
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;
@@ -571,7 +577,7 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
-      margin-bottom: -1rem;
+      margin-bottom: 1rem;
 
       .preview {
         width: 100%;
@@ -581,7 +587,7 @@ footer.sticky-bottom {
 
       .abbr {
         height: 2rem;
-        margin-bottom: 0.0rem;
+        margin-bottom: 0.5rem;
 
         abbr {
           display: inline-block;
@@ -610,7 +616,7 @@ footer.sticky-bottom {
 
       .author {
         a {
-          //border-bottom: 1px dashed var(--global-theme-color);
+          border-bottom: 1px dashed var(--global-theme-color);
 
           &:hover {
             border-bottom-style: solid;
@@ -637,14 +643,14 @@ footer.sticky-bottom {
 
       .links {
         a.btn {
-          text-transform: none;
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
-          padding-left: 0.2rem;
-          padding-right: 0.2rem;
-          padding-top: 0.01rem;
-          padding-bottom: 0.01rem;
+          padding-left: 1rem;
+          padding-right: 1rem;
+          padding-top: 0.25rem;
+          padding-bottom: 0.25rem;
           margin-left: 0;
+
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
@@ -705,8 +711,6 @@ footer.sticky-bottom {
 
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
-        margin-top: -2rem;
-        margin-bottom: 2rem;
       }
     }
   }
@@ -777,6 +781,10 @@ html.transition *:after {
     blockquote {
       border-left: 5px solid var(--global-theme-color);
       padding: 8px;
+
+      p {
+        margin-bottom: 0;
+      }
     }
   }
 }
@@ -790,7 +798,7 @@ progress {
 
   /* Dimensions */
   width: 100%;
-  height: 2px;
+  height: 1px;
 
   /* Reset the appearance */
   -webkit-appearance: none;
@@ -804,7 +812,7 @@ progress {
   background-color: transparent;
 
   /* Progress bar value for IE10  */
-  color: var(--global-bg-color);
+  color: var(--global-theme-color);
 }
 
 progress::-webkit-progress-bar {
@@ -812,11 +820,11 @@ progress::-webkit-progress-bar {
 }
 
 progress::-webkit-progress-value {
-  background-color: var(--global-bg-color);
+  background-color: var(--global-theme-color);
 }
 
 progress::-moz-progress-bar {
-  background-color: var(--global-bg-color);
+  background-color: var(--global-theme-color);
 }
 
 .progress-container {
@@ -830,35 +838,27 @@ progress::-moz-progress-bar {
 }
 
 .progress-bar {
-  background-color: var(--global-bg-color);
+  background-color: var(--global-theme-color);
   width: 0%;
   display: block;
   height: inherit;
 }
 
-pre {
-  padding: 8px 12px;
+/* Copy button */
+.code-display-wrapper {
   position: relative;
 
-  /* Copy code to clipboard button */
   .copy {
     background: var(--global-card-bg-color);
     border-color: var(--global-bg-color);
     border-radius: .3rem;
-    border-style: solid;
+    border-style: none;
     color: var(--global-text-color);
     font-size: medium;
     opacity: 0;
     position: absolute;
-    right: .25rem;
-    top: .25rem;
-
-    &:active,
-    &:focus,
-    &:hover {
-      color: var(--global-hover-color);
-      opacity: 1;
-    }
+    right: .5rem;
+    top: .5rem;
   }
 
   &:active .copy,
@@ -866,5 +866,134 @@ pre {
   &:hover .copy {
     color: var(--global-hover-color);
     opacity: 1;
+  }
+}
+
+.btn-group.dropdown {
+  .btn {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+
+  .btn-secondary.dropdown-toggle {
+    border: 1px solid var(--global-divider-color);
+
+    .page-size {
+      color: inherit;
+    }
+
+    &:not(.active) {
+      background-color: var(--global-bg-color) !important;
+      color: var(--global-text-color);
+    }
+
+    &:hover {
+      background-color: var(--global-hover-color) !important;
+      color: var(--global-hover-text-color) !important;
+    }
+  }
+
+  .dropdown-menu {
+    background-color: var(--global-bg-color);
+  }
+
+  .dropdown-item {
+    background-color: var(--global-bg-color);
+    color: var(--global-text-color);
+
+    &:hover {
+      color: var(--global-hover-color);
+    }
+  }
+
+  .dropdown-item.active, .dropdown-item:active {
+    background-color: var(--global-hover-color);
+    color: var(--global-hover-text-color) !important;
+
+    &:hover {
+      color: var(--global-hover-text-color);
+    }
+  }
+}
+
+/* Table of Contents */
+nav[data-toggle="toc"] {
+  top: 5rem;
+
+  .nav .nav>li>a {
+    font-size: .75rem;
+  }
+
+  .nav>li>a {
+    color: var(--global-text-color);
+    font-size: .75rem;
+
+    &:hover {
+      color: var(--global-hover-color);
+      border-left-color: var(--global-hover-color);
+    }
+  }
+
+  .nav-link.active {
+    color: var(--global-theme-color);
+    border-left-color: var(--global-theme-color);
+    font-size: .75rem;
+
+    &:hover {
+      color: var(--global-hover-color);
+      border-left-color: var(--global-hover-color);
+    }
+  }
+}
+
+/* small screens */
+@media (max-width: 576px) {
+  /* override stickyness so that the navigation does not follow scrolling */
+  nav[data-toggle="toc"] {
+    visibility: hidden;
+    height: 0;
+    top: 0;
+  }
+}
+
+/* Tips, warnings, and dangers blockquotes */
+.post .post-content blockquote {
+  &.block-tip {
+    border-color: var(--global-tip-block);
+    background-color: var(--global-tip-block-bg);
+
+    p {
+      color: var(--global-tip-block-text);
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: var(--global-tip-block-title);
+    }
+  }
+
+  &.block-warning {
+    border-color: var(--global-warning-block);
+    background-color: var(--global-warning-block-bg);
+
+    p {
+      color: var(--global-warning-block-text);
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: var(--global-warning-block-title);
+    }
+  }
+
+  &.block-danger {
+    border-color: var(--global-danger-block);
+    background-color: var(--global-danger-block-bg);
+
+    p {
+      color: var(--global-danger-block-text);
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: var(--global-danger-block-title);
+    }
   }
 }
