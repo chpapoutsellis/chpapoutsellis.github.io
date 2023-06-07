@@ -10,7 +10,8 @@ category: work
 
 
 <h4 style="text-align: left;"  style="font-size: 1.25rem;"><strong>Regular waves over variable bathymetry (harmonic generation)</strong></h4>
-Reproduction of the Beji-Battjes/Dingemans experiment by using the Hamiltonian Coupled-Mode system modelling fully non-linear free-surface potential flow. Result from the paper  [A new efficient Hamiltonian approach to the nonlinear water-wave problem over arbitrary bathymetry](https://arxiv.org/abs/1704.03276) in collaboration with G. Athanassoulis. 
+Reproduction of the Beji-Battjes/Dingemans experiment by using the Hamiltonian Coupled-Mode system modelling fully non-linear free-surface potential flow. Results from the paper  
+[A new efficient Hamiltonian approach to the nonlinear water-wave problem over arbitrary bathymetry](https://arxiv.org/abs/1704.03276) in collaboration with G. Athanassoulis. 
 
 <style>
   .iframe-container {
