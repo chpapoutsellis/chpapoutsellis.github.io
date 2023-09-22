@@ -37,7 +37,7 @@ I obtained a 5-year diploma and a Master's in Mathematical modelling in Modern T
 I have worked as a postodoctoral researcher in France in the [Institut de recherches sur les phénomènes hors équilibre](https://irphe.univ-amu.fr/) (IRPHE)/[Laboratoire d'Hydraulique Saint-Venant](https://www.saint-venant-lab.fr/) (LHSV), the [Centre Européen de Recherche et d’Enseignement des Géosciences de l’Environnement](https://www.cerege.fr/fr/) (CEREGE), the [Institut de mécanique des fluides de Toulouse](https://www.imft.fr/en/accueil-english/) (IMFT) and the [École nationale supérieure de techniques avancées Bretagne](https://www.ensta-bretagne.fr/fr) (ENSTA Bretagne).
 
 
-For more details please see [cv](https://epapoutsellis.github.io/cv/) (updated April 2023).
+For more details please see [cv](https://chpapoutsellis.github.io/cv/) (updated April 2023).
 
 You can contact me at cpapoutsellis@ucsd.edu
 
