@@ -603,10 +603,10 @@ footer.sticky-bottom {
 .publications ol.bibliography li .links a.btn {
   color: var(--global-text-color);
   border: 1px solid var(--global-text-color);
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+  padding-left: 0.15rem;
+  padding-right: 0.15rem;
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
   margin-left: 0;
 }
 .publications ol.bibliography li .links a.btn:hover {
