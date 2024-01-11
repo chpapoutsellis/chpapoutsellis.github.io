@@ -575,6 +575,7 @@ footer.sticky-bottom {
 }
 .publications ol.bibliography li .title {
   font-weight: normal;
+  color: white;
 }
 .publications ol.bibliography li .author a {
   border-bottom: 1px dashed var(--global-theme-color);
