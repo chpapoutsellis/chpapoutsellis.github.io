@@ -521,8 +521,8 @@ footer.sticky-bottom {
 }
 
 .publications {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
 }
 .publications h1 {
   color: var(--global-theme-color);
@@ -553,6 +553,7 @@ footer.sticky-bottom {
 }
 .publications ol.bibliography li {
   margin-bottom: -5rem;
+  margin-bottom: 0rem;
 }
 .publications ol.bibliography li .preview {
   width: 100%;
