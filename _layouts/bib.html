@@ -105,11 +105,11 @@
         {%- endif -%}
         
         {%- if entry.year -%}
-        {%- capture entryyear -%}{%- endcapture -%}
+        {%- capture entryyear -%}{{ "(" }}{{ entry.year }}{{ "), " }}{%- endcapture -%}
         {%- endif -%}
         {%- if entryyear != "" -%}{{ entryyear }}{%- endif -%}
         {%- if entry.title -%}
-        {%- capture entrytitle -%}{{ " " }}{%- endcapture -%}
+        {%- capture entrytitle -%}{{ " " }}{{ entry.title }}{%- endcapture -%}
         {%- endif -%}
         {%- if entry.doi -%}
         {%- capture entrydoi -%}{{ " " }}{{ entry.doi }}{%- endcapture -%}
@@ -117,11 +117,6 @@
         {%- if entry.html -%}
         {%- capture entryhtml -%}{{ " " }}{{ entry.html }}{%- endcapture -%}
         {%- endif -%}
-
-        
-
-
-
         
         <!--{%- if entry.html != "" -%}<a href= "{{entryhtml}}" target="_blank">{{entrytitle}}</a>{%- endif -%}
         {{entry.url}}-->
