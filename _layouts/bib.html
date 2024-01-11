@@ -115,8 +115,8 @@
         {%- else -%}
         {%- capture entrytitle -%}{%- endcapture -%}
         {%- endif -%}
-
-{{ entryyear }}{{ entrytitle }}
+        
+        {{ entryyear }}{{ entrytitle }}
         {%- if entry.doi -%}
         {%- capture entrydoi -%}{{ " " }}{{ entry.doi }}{%- endcapture -%}
         {%- endif -%}
