@@ -105,17 +105,14 @@
         {%- endif -%}
         
         {%- if entry.year -%}
-        {%- capture entryyear -%}{%- endcapture -%}
+        {%- capture entryyear -%}{{" ("}}{{ entry.year }}{{"), "}}{%- endcapture -%}
         {%- endif -%}
-        {%- if entryyear != "" -%}{%- endif -%}
+        {%- if entryyear != "" -%}{{ entryyear }}{%- endif -%}
         {%- if entry.title -%}
-        {%- capture entrytitle -%}{%- endcapture -%}
+        {%- capture entrytitle -%}{{ " " }}{{ entry.title }}{%- endcapture -%}
         {%- else -%}
         {%- capture entrytitle -%}{%- endcapture -%}
         {%- endif -%}
-
-        
-
         {%- if entry.doi -%}
         {%- capture entrydoi -%}{{ " " }}{{ entry.doi }}{%- endcapture -%}
         {%- endif -%}
