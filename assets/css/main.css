@@ -527,7 +527,7 @@ footer.sticky-bottom {
 .publications h1 {
   color: var(--global-theme-color);
   font-size: 2rem;
-  text-align: center;
+  text-align: left;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
