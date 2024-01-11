@@ -109,7 +109,7 @@
         {%- endif -%}
         {%- if entryyear != "" -%}{{ entryyear }}{%- endif -%}
         {%- if entry.title -%}
-        {%- capture entrytitle -%}{{ " " }}{{ entry.title }}{%- endcapture -%}
+        {%- capture entrytitle -%}{{" ("}}{{ entry.year }}{{"), "}}{{ " " }}{{ entry.title }}{%- endcapture -%}
         {%- else -%}
         {%- capture entrytitle -%}{%- endcapture -%}
         {%- endif -%}
