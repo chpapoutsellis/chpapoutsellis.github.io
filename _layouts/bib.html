@@ -109,8 +109,11 @@
         {%- endif -%}
         {%- if entryyear != "" -%}{{ entryyear }}{%- endif -%}
         {%- if entry.title -%}
-        {%- capture entrytitle -%}{{ " " }}<i>{{ entry.title }}</i>{%- endcapture -%}
+        {%- capture entrytitle -%}{{ " " }}{{ entry.title }}{%- endcapture -%}
+        {%- else -%}
+        {%- capture entrytitle -%}{%- endcapture -%}
         {%- endif -%}
+        {{ entrytitle }}
         {%- if entry.doi -%}
         {%- capture entrydoi -%}{{ " " }}{{ entry.doi }}{%- endcapture -%}
         {%- endif -%}
