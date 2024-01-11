@@ -1,12 +1,12 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Christos Papoutsellis
-    - name: Date of Birth
-      value: 12th March 1984
-    - name: Languages
-      value: English, French, Greek
+#- title: General Information
+#  type: map
+#  contents:
+#    - name: Full Name
+#      value: Christos Papoutsellis
+#    - name: Date of Birth
+#      value: 12th March 1984
+#    - name: Languages
+#      value: English, French, Greek
 
 
 - title: Experience
