@@ -544,8 +544,8 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: 0.0rem;
+  margin-bottom: 0.0rem;
 
   h1 {
     color: var(--global-theme-color);
@@ -579,7 +579,7 @@ footer.sticky-bottom {
     margin-bottom: -5.5rem;
     li {
       margin-bottom: -5rem;
-
+      margin-bottom:  0rem;
       .preview {
         width: 100%;
         min-width: 80px;
