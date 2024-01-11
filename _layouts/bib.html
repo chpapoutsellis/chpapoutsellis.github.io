@@ -109,7 +109,7 @@
         {%- endif -%}
         {%- if entryyear != "" -%}{{ entryyear }}{%- endif -%}
         {%- if entry.title -%}
-        {%- capture entrytitle -%}{{ " " }}{{ entry.title }}{%- endcapture -%}
+        {%- capture entrytitle -%}{{ " " }}<i>{{ entry.title }}</i>{%- endcapture -%}
         {%- endif -%}
         {%- if entry.doi -%}
         {%- capture entrydoi -%}{{ " " }}{{ entry.doi }}{%- endcapture -%}
@@ -121,7 +121,7 @@
         <!--{%- if entry.html != "" -%}<a href= "{{entryhtml}}" target="_blank">{{entrytitle}}</a>{%- endif -%}
         {{entry.url}}-->
         <!-- Title -->
-        <!--<div class="title">{{entry.title}}</div> -->
+        <div class="title">{{entry.title}}</div>
 
         
             
