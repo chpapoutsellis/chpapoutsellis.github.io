@@ -544,7 +544,7 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
-  margin-top: 2rem;
+  margin-top: 10rem;
 
   h1 {
     color: var(--global-theme-color);
@@ -615,7 +615,6 @@ footer.sticky-bottom {
       }
 
       .author {
-        font-weight: bolder;
         a {
           border-bottom: 1px dashed var(--global-theme-color);
 
