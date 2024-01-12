@@ -575,11 +575,9 @@ footer.sticky-bottom {
   ol.bibliography {
     list-style: none;
     padding: 0;
-    margin-top: 0rem;
-    margin-bottom: 0rem;
     li {
-      margin-bottom:  1.0rem;
-      margin-top:   1.0rem;
+      margin-bottom:  0.0rem;
+      margin-top:   0.0rem;
       .preview {
         width: 100%;
         min-width: 80px;
