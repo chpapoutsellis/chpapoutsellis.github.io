@@ -662,7 +662,7 @@ footer.sticky-bottom {
 }
 .publications ol.bibliography li div.abstract.hidden.open {
   border-color: var(--global-text-color);
-  margin-top: -1rem;
+  margin-top: -1.5rem;
 }
 
 figure.highlight {
