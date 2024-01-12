@@ -120,6 +120,11 @@ strong {
   color: var(--global-text-color);
 }
 
+h3 {
+  color: var(--global-text-color);
+  margin-bottom: 30px; /* Adjust the value as needed */
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -551,7 +556,7 @@ footer.sticky-bottom {
 }
 .publications ol.bibliography li {
   margin-bottom: -1rem;
-  margin-top: 0rem;
+  margin-top: -1rem;
 }
 .publications ol.bibliography li .preview {
   width: 100%;
