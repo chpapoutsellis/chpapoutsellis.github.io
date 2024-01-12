@@ -548,12 +548,10 @@ footer.sticky-bottom {
 .publications ol.bibliography {
   list-style: none;
   padding: 0;
-  margin-top: 0rem;
-  margin-bottom: 0rem;
 }
 .publications ol.bibliography li {
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
 }
 .publications ol.bibliography li .preview {
   width: 100%;
