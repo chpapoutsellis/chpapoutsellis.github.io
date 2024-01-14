@@ -114,7 +114,7 @@ contact_note: >
 google_analytics:  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
-google_site_verification:  # your google-site-verification ID (Google Search Console)
+google_site_verification:  google6b093f892e555cce.html # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
@@ -344,7 +344,7 @@ jekyll-diagrams:
     # feel free to comment out this section if not using jekyll diagrams.
 
 
-# -----------------------------------------------------------------------------
+# ---------------------------------------------------------i--------------------
 # Optional Features
 # -----------------------------------------------------------------------------
 
