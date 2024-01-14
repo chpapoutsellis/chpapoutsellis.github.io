@@ -4,6 +4,13 @@ $(document).ready(function() {
         $(this).parent().parent().find(".abstract.hidden").toggleClass('open');
         $(this).parent().parent().find(".bibtex.hidden.open").toggleClass('open');
     });
+
+    $('a.figs').click(function() {
+        $(this).parent().parent().find(".figs.hidden").toggleClass('open');
+        $(this).parent().parent().find(".abstract.hidden.open").toggleClass('open');
+    });
+    
+
     $('a.bibtex').click(function() {
         $(this).parent().parent().find(".bibtex.hidden").toggleClass('open');
         $(this).parent().parent().find(".abstract.hidden.open").toggleClass('open');

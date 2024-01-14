@@ -28,6 +28,7 @@
         {%- endif -%}
         </div>
 
+
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="col-sm-8">
         
@@ -178,17 +179,19 @@
           <!-- Links/Buttons -->
           <div class="links">
           {%- if entry.abstract %}
-            <a class="abstract btn btn-sm z-depth-0" role="button" >Abstract</a>
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
           {%- endif %}
+          {%- if entry.figs %}
+            <a class="figs btn btn-sm z-depth-0" role="button">Figs</a>
+          {%- endif %} 
+          {%- if entry.teaser %}
+            <a class="teaser btn btn-sm z-depth-0" role="button">Teaser</a>
+          {%- endif %} 
           {%- if entry.arxiv %}
             <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button" style="color:var(--global-theme-color)">arXiv</a>
           {%- endif %}
           {%- if entry.hal %}
             <a href="https://hal.science/{{ entry.hal}}" class="btn btn-sm z-depth-0" role="button" style="color:var(--global-theme-color)">HAL</a>
-          {%- endif %}
-          
-          {%- if entry.bibtex_show %}
-            <a class="bibtex btn btn-sm z-depth-0" role="button">BibTex</a>
           {%- endif %}
           {%- if entry.html %}
             <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button" style="color:var(--global-theme-color)">DOI</a>
@@ -211,7 +214,10 @@
             <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
           {%- endif %}
           {%- if entry.code %}
-            <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+            <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button" style="color:var(--global-theme-color)">CODE</a>
+          {%- endif %}
+          {%- if entry.bibtex_show %}
+            <a class="bibtex btn btn-sm z-depth-0" role="button">BibTex</a>
           {%- endif %}
           {%- if entry.poster %}
             {% if entry.poster contains '://' -%}
@@ -262,11 +268,30 @@
           </div>
           {%- endif %}
 
+        
+          
+          {% if entry.figs -%}
+          
+          <!-- Hidden abstract block -->
+          <div class="figs hidden">
+
+            {% if entry.key=="papoutsellis_mercier_grisouard_2023" %}
+            
+            <img src="../assets/img/ITCMS1.png" width="30%"/> 
+            <img src="../assets/img/ITCMS2.png" width="30%"/>   
+            {%- endif -%}    
+            
+          </div>
+               
+          {%- endif -%}     
+          
           {% if entry.abstract -%}
 
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
             <p>{{ entry.abstract }}</p>
+            
+
           </div>
           {%- endif -%}
 

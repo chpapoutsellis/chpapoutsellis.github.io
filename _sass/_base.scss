@@ -582,12 +582,13 @@ footer.sticky-bottom {
     padding: 0;
     li {
       margin-bottom:  -1.0rem;
-      margin-top:   -1.0rem;
+      margin-top:   -1.5rem;
       .preview {
         width: 100%;
         min-width: 80px;
         max-width: 200px;
       }
+      
 
       .abbr {
         height: 0rem;
@@ -596,8 +597,8 @@ footer.sticky-bottom {
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
 
           a {
             color: white;
@@ -709,14 +710,41 @@ footer.sticky-bottom {
         transition: all 0.15s ease;
 
       }
+      
+      div.figs.hidden {
+        
+        margin-top: -0.5rem;
+        margin-bottom:  0.5rem;
+      }
+
+      div.figs.hidden.open {
+        
+        margin-top: -1.5rem;
+        margin-bottom:  2.5rem;
+      }
+
+      div.bibtex.hidden {
+        margin-top: -0.5rem;
+        margin-bottom:  0.5rem;
+      }
+
+      div.bibtex.hidden.open {
+        border-color: var(--global-text-color);
+        margin-top: -1.5rem;
+        margin-bottom:  1.5rem;
+      }
+
+
 
       div.abstract.hidden {
-        border: dashed 1px var(--global-bg-color);
+ /*       border: dashed 1px var(--global-bg-color);*/
+        margin-top: -0.5rem;
+        margin-bottom:  0.5rem;
       }
 
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
-        margin-top: -1.5rem;
+        margin-top: -2.0rem;
         margin-bottom:  1.5rem;
       }
     }
