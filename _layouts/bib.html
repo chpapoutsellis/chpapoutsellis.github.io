@@ -63,7 +63,7 @@
             {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
           {%- endif -%}
           {%- if author_is_self -%}
-            <em>{{author.first}} {{author.last}}</em>
+            <b>{{author.first}} {{author.last}} </b>
           {%- else -%}
             {%- if coauthor_url -%}
               <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
@@ -277,8 +277,9 @@
 
             {% if entry.key=="papoutsellis_mercier_grisouard_2023" %}
             
-            <img src="../assets/img/VIDEO_ITCMS.gif" width="30%"/> 
-           <!-- <img src="../assets/img/ITCMS2.png" width="30%"/>  --> 
+            <img src="../assets/img/VIDEO_ITCMS.gif" style="width: 30%; margin-right: 10px;"/>
+            <img src="../assets/img/ITCMS2.png" style="width: 30%; margin-right: 10px;"/>
+            <img src="../assets/img/ITCMS3.png" style="width: 30%;"/>
             {%- endif -%}    
             
           </div>
