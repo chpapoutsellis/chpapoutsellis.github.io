@@ -23,7 +23,7 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I am an Assistant Project Scientist at <a href='https://ucsd.edu/'>University of California San Diego</a> (UCSD), <a href='https://mae.ucsd.edu/'>Mechanical and Aerospace Engineering</a> (MAE). I am interested in the mathematical modelling of phenomena that emerge in oceanic flows. My research mainly focuses on 
+I am an Assistant Project Scientist at the department of <a href='https://mae.ucsd.edu/'>Mechanical and Aerospace Engineering</a> (<a href='https://ucsd.edu/'>University of California San Diego</a>). I am interested in the mathematical modelling of phenomena that emerge in oceanic flows. My research mainly focuses on 
 - Water Waves
 - Internal Waves
 - Global Analysis of Dynamical Systems
