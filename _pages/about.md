@@ -41,8 +41,6 @@ I have worked as a postodoctoral researcher in France in the [Institut de recher
 I obtained a 5-year diploma and a Master's in Mathematical modelling in Modern Technologies from the  [School of Applied Mathematical and Physical Sciences](http://semfe.ntua.gr/en/) of the [National Technical University of Athens](https://www.ntua.gr/en/) (NTUA). I obtained my PhD from the [School of Naval Architecture and Marine Engineering](https://www.ntua.gr/en/schools/item/8-school-of-naval-architecture-and-marine-engineering) of the NTUA in 2016, under the supervision of Professor [Gerassimos Athanassoulis]( https://gerassimos.athanassoulis.net/). 
 
 
-
-
 For more details please see [cv](https://chpapoutsellis.github.io/cv/) (updated April 2023).
 
 You can contact me at cpapoutsellis@ucsd.edu
