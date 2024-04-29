@@ -27,14 +27,14 @@ social: true  # includes social icons at the bottom of the page
 
 
 
-[comment]: <> I am an Assistant Project Scientist at the department of <a href='https://mae.ucsd.edu/'>Mechanical and Aerospace Engineering</a> (<a href='https://ucsd.edu/'>University of California San Diego</a>). I am interested in the mathematical modelling of phenomena that emerge in oceanic flows. My research mainly focuses on 
+
+
+
+
+I am an Assistant Project Scientist at the department of <a href='https://mae.ucsd.edu/'>Mechanical and Aerospace Engineering</a> (<a href='https://ucsd.edu/'>University of California San Diego</a>). I am interested in the mathematical modelling of phenomena that emerge in oceanic flows. My research mainly focuses on 
 - Water Waves
 - Internal Waves
 - Global Analysis of Dynamical Systems
-
-
-
-[comment]: <> Prior to this, I was a Computational Imaging Scientist (permanent) at the [Scientific Computing Department (SCD)](https://www.scd.stfc.ac.uk/Pages/home.aspx) in the [Science Technology Facilities Council (STFC)](https://stfc.ukri.org/). 
 
 I obtained a 5-year diploma and a Master's in Mathematical modelling in Modern Technologies from the  [School of Applied Mathematical and Physical Sciences](http://semfe.ntua.gr/en/) of the [National Technical University of Athens](https://www.ntua.gr/en/) (NTUA). I obtained my PhD from the [School of Naval Architecture and Marine Engineering](https://www.ntua.gr/en/schools/item/8-school-of-naval-architecture-and-marine-engineering) of the NTUA in 2016, under the supervision of Professor [Gerassimos Athanassoulis]( https://gerassimos.athanassoulis.net/). 
 
