@@ -42,7 +42,11 @@
   contents:
     - title: Internal tide generation due to topographically adjusted barotropic tide  
       institution: European Geosciences Union, General Assembly 
-      year: 2021
+      year: "2021"
+
+    - title: "Internal tide generation with adjusted barotropic tidalf low: critical slopes and non-radiating topographies"
+      institution: Singularities and Attractors in rotating and stratified fluids
+      year: "2022"
     
 
 
