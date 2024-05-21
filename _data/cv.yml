@@ -37,6 +37,18 @@
       #  - Modelling of internal tides.
     
 
+- title: Talks
+  type: time_table
+  contents:
+    - title: Internal tide generation due to topographically adjusted barotropic tide  
+      institution: European Geosciences Union, General Assembly 
+      year: 2021
+    
+
+
+
+
+
 - title: Education
   type: time_table
   contents:
