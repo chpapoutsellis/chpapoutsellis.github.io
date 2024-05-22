@@ -40,6 +40,10 @@
 - title: Talks
   type: time_table
   contents:
+    - title: A new high-order shallow water model with canonical Hamiltonian structure 
+    - institution: 18è Journées de l’Hydrodynamique, November 22-24, 2022, Poitiers, France
+    - year:  
+     
     - title: Internal tide generation due to topographically adjusted barotropic tide  
       institution: European Geosciences Union, General Assembly 
       year: "2021"
