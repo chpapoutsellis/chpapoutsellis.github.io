@@ -588,6 +588,7 @@ footer.sticky-bottom {
 }
 .publications ol.bibliography li .author a {
   border-bottom: 1px dashed var(--global-theme-color);
+  border-bottom: none;
 }
 .publications ol.bibliography li .author a:hover {
   border-bottom-style: solid;
