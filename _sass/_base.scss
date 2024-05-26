@@ -622,26 +622,26 @@ footer.sticky-bottom {
       .author {
         a {
           border-bottom: 1px dashed var(--global-theme-color);
-          border-bottom: none;
+          border-bottom: none ;
           &:hover {
             border-bottom-style: solid;
-            text-decoration: none;
+            text-decoration: none !important;
           }
         }
 
         >em {
-          border-bottom: 1px solid;
+          border-bottom: none !important;
           font-style: normal;
         }
 
         >span.more-authors {
           color: var(--global-text-color-light);
-          border-bottom: 1px dashed var(--global-text-color-light);
+          border-bottom: none !important;
           cursor: pointer;
 
           &:hover {
             color: var(--global-text-color);
-            border-bottom: 1px dashed var(--global-text-color);
+            border-bottom: none !important;
           }
         }
       }
