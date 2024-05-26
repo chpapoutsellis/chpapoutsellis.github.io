@@ -107,7 +107,7 @@
 
 
 
-        {%- if entry.year -%}
+  {%- if entry.year -%}
     {%- capture entryyear -%}{{" ("}}{{ entry.year }}{{"), "}}{%- endcapture -%}
   {%- endif -%}
   {%- if entryyear != "" -%}{{ entryyear }}{%- endif -%}
@@ -123,14 +123,7 @@
   {%- if entry.html -%}
     {%- capture entryhtml -%}{{ " " }}{{ entry.html }}{%- endcapture -%}
   {%- endif -%}
-
-      <!--{%- if entry.html != "" -%}<a href= "{{entryhtml}}" target="_blank">{{entrytitle}}</a>{%- endif -%}
-        {{entry.url}}-->
-      <!-- Title -->
-      <!-- <div class="title">{{entry.title}}</div> -->
-
-
-
+  <br>
 
       <!-- Journal/Book title and date -->
       {% assign proceedings = "inproceedings,incollection" | split: ','%}
