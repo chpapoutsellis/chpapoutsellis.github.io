@@ -103,22 +103,33 @@
               ">{{more_authors_hide}}</span>
       {%- endif -%}
 
-      {%- if entry.year -%}
-  {%- capture entryyear -%}{{" ("}}{{ entry.year }}{{"), "}}{%- endcapture -%}
-{%- endif -%}
-{%- if entryyear != "" -%}{{ entryyear }}{%- endif -%}
-{%- if entry.title -%}
-  {%- capture entrytitle -%}{{ " " }}<a href="{{ entry.html }}" style="color: black !important; text-decoration: none !important;">{{ entry.title }}</a>{{ " " }}{%- endcapture -%}
-{%- else -%}
-  {%- capture entrytitle -%}{%- endcapture -%}
-{%- endif -%}
-{%- if entrytitle != "" -%}{{ entrytitle }}{%- endif -%}
-{%- if entry.doi -%}
-  {%- capture entrydoi -%}{{ " " }}{{ entry.doi }}{%- endcapture -%}
-{%- endif -%}
-{%- if entry.html -%}
-  {%- capture entryhtml -%}{{ " " }}{{ entry.html }}{%- endcapture -%}
-{%- endif -%}
+
+
+      <style>
+        .custom-container a.custom-link {
+          color: black !important;
+          text-decoration: none !important;
+        }
+      </style>
+      
+      <div class="custom-container"></div>
+          {%- if entry.year -%}
+      {%- capture entryyear -%}{{" ("}}{{ entry.year }}{{"), "}}{%- endcapture -%}
+    {%- endif -%}
+    {%- if entryyear != "" -%}{{ entryyear }}{%- endif -%}
+    {%- if entry.title -%}
+      {%- capture entrytitle -%}{{ " " }}<a href="{{ entry.html }}" style="color: black !important; text-decoration: none !important;">{{ entry.title }}</a>{{ " " }}{%- endcapture -%}
+    {%- else -%}
+      {%- capture entrytitle -%}{%- endcapture -%}
+    {%- endif -%}
+    {%- if entrytitle != "" -%}{{ entrytitle }}{%- endif -%}
+    {%- if entry.doi -%}
+      {%- capture entrydoi -%}{{ " " }}{{ entry.doi }}{%- endcapture -%}
+    {%- endif -%}
+    {%- if entry.html -%}
+      {%- capture entryhtml -%}{{ " " }}{{ entry.html }}{%- endcapture -%}
+    {%- endif -%}
+  </div>
 
       <!--{%- if entry.html != "" -%}<a href= "{{entryhtml}}" target="_blank">{{entrytitle}}</a>{%- endif -%}
         {{entry.url}}-->
@@ -169,11 +180,6 @@
         href="{{ https://doi.org/entrydoi }}" target="_blank">{{https://doi.org/}}{{ entrydoi }}</a> {%- endcapture -%}
       {%- endif -%}
       {{ periodical }}
-
-
-
-
-
     </div>
 
 
