@@ -123,12 +123,13 @@
   {%- if entry.html -%}
     {%- capture entryhtml -%}{{ " " }}{{ entry.html }}{%- endcapture -%}
   {%- endif -%}
-  <br>
+  
 
       <!-- Journal/Book title and date -->
       {% assign proceedings = "inproceedings,incollection" | split: ','%}
       {% assign thesis = "thesis,mastersthesis,phdthesis" | split: ','%}
       {% if entry.type == "article" -%}
+      <br>
       {%- capture entrytype -%}<i>{{entry.journal}}</i>{%- endcapture -%}
       {%- elsif proceedings contains entry.type -%}
       {%- capture entrytype -%}<i>In {{entry.booktitle}}</i> {%- endcapture -%}
