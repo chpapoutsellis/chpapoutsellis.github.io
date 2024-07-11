@@ -15,20 +15,6 @@ $$
 \dot{y}  = - p(x)  + \epsilon\left(-\beta_1 y - \beta_2 y|y| +  \alpha \cos(\Omega t + \theta)\right), 
  $$
 
-<style>
-  .iframe-container {
-    display: flex;
-    gap: 50px;
-    margin-bottom: 50px;
-  }
-  iframe {
-    border: 50;
-  }
-</style>
-
-<div class="iframe-container">
-<iframe width="600" height="400" src="https://youtube.com/embed/ANVd0OmHV2c" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
 
 
 
