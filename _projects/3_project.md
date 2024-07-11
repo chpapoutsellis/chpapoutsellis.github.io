@@ -16,9 +16,9 @@ $$\begin{aligned}
 \dot{y}  &= - p(x)  + \epsilon\left(-\beta_1 y - \beta_2 y|y| +  \alpha \cos(\Omega t + \theta)\right), 
 \end{aligned}$$
 
-\[
+\[[
   \makebox[\linewidth]{$h(t_{ij}) = Pr T_i = j| T_i \geq j |$}
-\]
+\]]
 
 
 
