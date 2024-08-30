@@ -19,4 +19,6 @@ nav_order: 4
   <li>Alexis Charalampopoulos, Senior Data Scientist, Bayer Crop Science </li>
   <li><a href="https://research.aston.ac.uk/en/persons/theodosios-papathanasiou">Theodosios Papathanassiou</a>, Ashton University, Birmingham, UK</li>
   <li><a href=" http://arion.naval.ntua.gr/~kbel/">Kostas Belibassakis</a>, National Technical University of Athens</li>
+  <li>Oliver Schmidt, Department of Mechanical and Aerospace Engineering, University of California San Diego</li> 
+  <li>Drew Lucas, Scripps Institution of Oceanography, University of California San Diego</li>  
 </ul>
