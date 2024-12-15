@@ -29,7 +29,7 @@ $$\begin{aligned}
 </style>
 
 <div class="iframe-container">
-<iframe width="600" height="400" src="https://www.youtube.com/watch?v=OqbvJhVnUWU&ab_channel=ChristosPapoutsellis" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="600" height="400" src="https://youtube.com/embed/OqbvJhVnUWU" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 
