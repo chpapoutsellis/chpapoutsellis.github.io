@@ -40,7 +40,16 @@
 - title: Talks
   type: time_table
   contents:
+
+    - title: Modeling free-surface and internal ocean waves  
+      institution: Institut de Recherche sur les Phénomènes Hors Equilibre (Irphé), Marseille, France
+      year: "2025"
+
     - title: A new high-order shallow water model with canonical Hamiltonian structure 
+      institution: 18è Journées de l'Hydrodynamique, Poitiers, France
+      year: "2022"
+
+      - title: Assesment of the Melnikov method for the ship roll problem 
       institution: 18è Journées de l'Hydrodynamique, Poitiers, France
       year: "2022"
      
