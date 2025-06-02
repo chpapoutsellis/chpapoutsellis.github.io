@@ -1,42 +1,27 @@
 ---
 ---
 <!-- _layouts/bib.html -->
-<div class="row">
-  <!--<div class="cv">-->
-  <!--<div class="card mt-3 p-3">-->
-    <!-- Mobile: show venue badge above the entry -->
-<div class="col-12 d-block d-sm-none {% if entry.preview %}preview{% else %}abbr{% endif %}" style="margin-bottom: 0.5em;">
-  {%- if entry.abbr -%}
-    {%- if site.data.venues[entry.abbr] -%}
-      {%- assign venue_style = nil -%}
-      {%- if site.data.venues[entry.abbr].color != blank -%}
-        {%- assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' -%}
-      {%- endif -%}
-      <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %}>
-        <a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a>
-      </abbr>
-    {%- else -%}
-      <abbr class="badge">{{entry.abbr}}</abbr>
-    {%- endif -%}
-  {%- endif -%}
-</div>
+<div class="row d-flex flex-wrap align-items-start publication-entry">
 
-<!-- Desktop: show venue badge on the left -->
-<div class="col-sm-2 d-none d-sm-block {% if entry.preview %}preview{% else %}abbr{% endif %}">
-  {%- if entry.abbr -%}
-    {%- if site.data.venues[entry.abbr] -%}
-      {%- assign venue_style = nil -%}
-      {%- if site.data.venues[entry.abbr].color != blank -%}
-        {%- assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' -%}
-      {%- endif -%}
+  <!-- Venue badge on mobile: stacked above -->
+  <div class="col-12 d-block d-sm-none mb-2 text-start {% if entry.preview %}preview{% else %}abbr{% endif %}">
+    {%- if entry.abbr -%}
+      {%- assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' -%}
       <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %}>
-        <a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a>
+        <a href="{{ site.data.venues[entry.abbr].url }}">{{ entry.abbr }}</a>
       </abbr>
-    {%- else -%}
-      <abbr class="badge">{{entry.abbr}}</abbr>
     {%- endif -%}
-  {%- endif -%}
-</div>
+  </div>
+
+  <!-- Venue badge on desktop: left-aligned -->
+  <div class="col-sm-2 d-none d-sm-block {% if entry.preview %}preview{% else %}abbr{% endif %}">
+    {%- if entry.abbr -%}
+      {%- assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' -%}
+      <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %}>
+        <a href="{{ site.data.venues[entry.abbr].url }}">{{ entry.abbr }}</a>
+      </abbr>
+    {%- endif -%}
+  </div>
 
 
   <!-- Entry bib key -->
