@@ -1,7 +1,7 @@
 ---
 layout: page
 title: internal waves
-description: 
+description:
 img: assets/img/internalwaves.jpg
 importance: 2
 category: work
@@ -26,5 +26,5 @@ The horizontal barocilinic velocity of an internal tide corresponding to the $$M
 </style>
 
 <div class="iframe-container">
-<iframe width="600" height="400" src="https://youtube.com/embed/ANVd0OmHV2c" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="600" height="400" src="https://youtu.be/anhROpTJgms" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
