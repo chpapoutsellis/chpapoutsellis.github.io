@@ -41,7 +41,7 @@
   type: time_table
   contents:
 
-    - title: [Modeling free-surface and internal ocean waves](https://youtu.be/rN49IG1hXrs?si=5pwFaGZU6qYGBC0z)
+    - title: <a href="https://youtu.be/rN49IG1hXrs?si=5pwFaGZU6qYGBC0z" target="_blank" rel="noopener">Modeling free-surface and internal ocean waves</a>
       institution: San Diego State University, Computational Science Research Center
       year: "2025"
 
