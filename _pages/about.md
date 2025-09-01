@@ -9,14 +9,13 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-   <p> École Nationale des Ponts et Chaussées
-   <p> 6 et 8 avenue Blaise-Pascal
-   <p> Cité Descartes  – Champs-sur-Marne
-   <p> F - 77455 Marne-la-Vallée cedex 2 
-   <p> Bureau V 208
+   <p> École Nationale des Ponts et Chaussées</p>
+   <p> 6 et 8 avenue Blaise-Pascal</p>
+   <p> Cité Descartes  – Champs-sur-Marne</p>
+   <p> F - 77455 Marne-la-Vallée cedex 2 </p>
+   <p> Bureau V 208</p>
    <br/>
-  
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54896939.21259352!2d-159.42013722471472!3d32.88115688094058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06c3a0a5a399%3A0x384b0b4fa03029b9!2sDepartment%20of%20Mechanical%20and%20Aerospace%20Engineering!5e0!3m2!1sen!2sus!4v1686112600319!5m2!1sen!2sus" width="150" height="112" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54896939.21259352!2d-159.42013722471472!3d32.88115688094058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06c3a0a5a399%3A0x384b0b4fa03029b9!2sDepartment%20of%20Mechanical%20and%20Aerospace%20Engineering!5e0!3m2!1sen!2sus!4v1686112600319!5m2!1sen!2sus" width="150" height="112" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
     
 news: false  # includes a list of news items
