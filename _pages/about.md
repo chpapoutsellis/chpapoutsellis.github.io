@@ -2,7 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle:  <a href='https://ucsd.edu/'>University of California San Diego</a> (UCSD), <a href='https://mae.ucsd.edu/'>Mechanical and Aerospace Engineering</a> (MAE)
+subtitle:  Academic coordinator @ Department of 1st year (D1A), Ecole Nationale des Ponts et Chaussées (ENPC) - Institut Polytechnique de Paris (IPP)
+ Researcher @  Laboratoire d’Hydraulique Saint-Venant (LHSV)
+ Research Assistant Professor @ Computational Science Research Center (CSRC) - San Diego State University (SDSU) 
+
+
+
+
+
 
 profile:
   align: right
