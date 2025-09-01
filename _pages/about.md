@@ -15,7 +15,7 @@ profile:
    <p>F - 77455 Marne-la-Vallée cedex 2</p>
    <p>Bureau V 208</p>
    <br/>
-   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54896939.21259352!2d-159.42013722471472!3d32.88115688094058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06c3a0a5a399%3A0x384b0b4fa03029b9!2sDepartment%20of%20Mechanical%20and%20Aerospace%20Engineering!5e0!3m2!1sen!2sus!4v1686112600319!5m2!1sen!2sus" width="150" height="112" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   <iframe src="https://www.google.com/maps/dir//%C3%89cole+des+ponts+ParisTech,+Cit%C3%A9+Descartes,+8+Av.+Blaise+Pascal+6+et,+77420+Champs-sur-Marne,+France/@48.8410905,2.5060034,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47e60e2d7f85dc39:0x14058c059473d90b!2m2!1d2.5879694!2d48.8407499?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D" width="150" height="112" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
     
 news: false  # includes a list of news items
