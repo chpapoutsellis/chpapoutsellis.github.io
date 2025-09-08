@@ -1066,12 +1066,12 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
 /* Light & dark gradients */
 :root {
   /* light theme gradient */
-  --page-gradient: linear-gradient(-0deg, #f7fafc, #eef7ff, #eaf7f0);
+  --page-gradient: linear-gradient(90deg, #f7fafc, #eef7ff, #eaf7f0);
 }
 
 html[data-theme=dark] {
   /* dark theme gradient */
-  --page-gradient: linear-gradient(-0deg, #0f2027, #203a43, #2c5364);
+  --page-gradient: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
 }
 
 /* Apply the gradient site-wide */
