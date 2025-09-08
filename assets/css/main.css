@@ -1061,5 +1061,10 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
     grid-column: none;
   }
 }
+/* Example: resize profile photo */
+.profile img {
+  max-width: 220px;
+  height: auto;
+}
 
 /*# sourceMappingURL=main.css.map */
