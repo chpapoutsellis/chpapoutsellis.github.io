@@ -1070,8 +1070,7 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
 }
 
 html[data-theme=dark] {
-  /* dark theme gradient */
-  --page-gradient: linear-gradient(-180deg, #0f2027, #203a43, #2c5364);
+  --page-gradient: linear-gradient(-180deg, #000000, #0a0f1c, #111111);
 }
 
 /* Apply the gradient site-wide */
