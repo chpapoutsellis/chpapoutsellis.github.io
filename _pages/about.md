@@ -6,14 +6,9 @@ subtitle:  <p>Academic coordinator @ Department of 1st year (D1A), Ecole Nationa
            <p>Researcher @  Laboratoire d’Hydraulique Saint-Venant (LHSV)</p>
            <p>Research Assistant Professor @ Computational Science Research Center (CSRC) - San Diego State University (SDSU)</p> 
 
-
-
-
-
-
 profile:
   align: right
-  image: myphoto.jpg
+  image: myphoto.jpeg
   image_circular: false # crops the image to make it circular
   address: >
    <p>École Nationale des Ponts et Chaussées</p>
