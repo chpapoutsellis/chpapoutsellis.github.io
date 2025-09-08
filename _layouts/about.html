@@ -38,6 +38,20 @@ layout: default
             {{ content }}
           </div>
 
+          <!-- Social -->
+          {%- if page.social %}
+            <div class="social">
+              <div class="contact-icons">
+                {% include social.html %}
+              </div>
+
+              <div class="contact-note">
+                {{ site.contact_note }}
+              </div>
+
+            </div>
+          {%- endif %}
+
           <!-- News -->
           {% if page.news -%}
             <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
@@ -56,19 +70,7 @@ layout: default
             {%- include selected_papers.html %}
           {%- endif %}
 
-          <!-- Social -->
-          {%- if page.social %}
-            <div class="social">
-              <div class="contact-icons">
-                {% include social.html %}
-              </div>
-
-              <div class="contact-note">
-                {{ site.contact_note }}
-              </div>
-
-            </div>
-          {%- endif %}
+          
         </article>
 
 </div>
