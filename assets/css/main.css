@@ -226,7 +226,7 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 15%;
+    width: 5%;
     text-align: center;
   }
   .profile .address p {
