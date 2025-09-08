@@ -27,6 +27,5 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-For more details please see [cv](https://chpapoutsellis.github.io/cv/) (updated April 2023).
 
 You can contact me at christos.papoutsellis@enpc.fr
