@@ -158,7 +158,6 @@ table.table a:hover:after :not(.nav-item.dropdown) {
 figure,
 img {
   max-width: 90vw;
-  width: 40%;
 }
 
 blockquote {
@@ -227,7 +226,7 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 10%;
     text-align: center;
   }
   .profile .address p {
