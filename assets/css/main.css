@@ -224,9 +224,10 @@ blockquote {
   margin-right: 20rem;
 }
 
+/* profile image size */
 @media (min-width: 576px) {
   .profile {
-    width: 25%; /* profile image size */
+    width: 25%;
     text-align: center;
   }
   .profile .address p {
