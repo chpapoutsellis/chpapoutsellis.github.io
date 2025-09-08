@@ -26,10 +26,12 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Research areas
-Free-surface waves
-Internal waves
-Mathematical Modelling in Fluid Mechanics
-Oceanography
+## Research areas
+
+- Free-surface waves  
+- Internal waves  
+- Mathematical modelling for fluid mechanics  
+- Numerical methods for Partial Differential Equations
+- Oceanography
 
 You can contact me at christos.papoutsellis@enpc.fr
