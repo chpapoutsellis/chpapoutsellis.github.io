@@ -142,11 +142,11 @@ blockquote {
   margin-right: 20rem;
 }
 
-/* profile image size */
 @media (min-width: 576px) {
   .profile {
-    width: 25%; 
+    width: 20%;
     text-align: center;
+
     .address {
       p {
         display: block;
