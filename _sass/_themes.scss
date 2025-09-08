@@ -3,10 +3,10 @@
  ******************************************************************************/
  
 :root {
-  /*--global-bg-color: #fbfbfb  ;*/
-  /*--global-bg-color_nav:#fbfbfb  ;*/
-  --global-bg-color: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-  --global-bg-color_nav: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  --global-bg-color: #fbfbfb  ;
+  --global-bg-color_nav:#fbfbfb  ;
+  /*--global-bg-color: linear-gradient(135deg, #0f2027, #203a43, #2c5364);*/
+  /*--global-bg-color_nav: linear-gradient(135deg, #0f2027, #203a43, #2c5364);*/
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
