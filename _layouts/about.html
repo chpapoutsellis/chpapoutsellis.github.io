@@ -22,9 +22,11 @@ layout: default
               {% endif %}
 
               {% include figure.html
-              path=profile_image_path
-              class=profile_image_class
-              alt=page.profile.image-%}
+                path=profile_image_path
+                class=profile_image_class
+                alt=page.profile.image
+                width=100
+              %}
             {% endif -%}
             {%- if page.profile.address %}
             <div class="address">
