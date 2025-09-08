@@ -226,17 +226,11 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 15%;
+    width: 40%;
     text-align: center;
   }
   .profile .address p {
     display: block;
-  }
-  /* Control the actual photo size */
-  .profile img {
-    width: 100%; /* scale within the column */
-    max-width: 220px; /* hard cap for the image */
-    height: auto;
   }
 }
 .post-description {
