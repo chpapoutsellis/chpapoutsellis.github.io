@@ -1,0 +1,25 @@
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const el = document.getElementById('typewriter');
+  if (!el) return;
+
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const full = el.getAttribute('data-text') || el.textContent.trim();
+
+  if (reduce) { el.textContent = full; return; }
+
+  el.textContent = ''; // start blank
+  let i = 0;
+  const speed = 70;       // ms per char
+  const startDelay = 300; // ms before typing
+
+  setTimeout(function type() {
+    if (i <= full.length) {
+      el.textContent = full.slice(0, i++);
+      setTimeout(type, speed);
+    } else {
+      el.classList.add('typewriter-done');
+    }
+  }, startDelay);
+});
+</script>
