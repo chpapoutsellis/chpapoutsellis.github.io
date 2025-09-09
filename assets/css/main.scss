@@ -22,7 +22,7 @@ $max-content-width: {{ site.max_width }};
 }
 
 html[data-theme='dark'] {
-  --page-gradient: linear-gradient(-180deg, #000000, #0d1b2a, #1b263b, #000000);
+  --page-gradient: linear-gradient(-180deg, #000000, #000000, #0d1b2a, #1b263b);
 }
 
 /* Apply the gradient site-wide */
