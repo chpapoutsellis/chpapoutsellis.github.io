@@ -6,16 +6,46 @@ layout: default
       <div class="post">
         <header class="post-header">
           <h1 class="post-title">
-          {% if site.title == "blank" -%}
-           <span id="revealtext" data-text="{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}">
-          {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
-          </span>
-          {%- else -%}
-          <span id="revealtext" data-text="{{ site.title }}">
-          {{ site.title }}
-          </span>
-         {%- endif %}
-         </h1>
+  {% if site.title == "blank" -%}
+    <span id="revealtext" data-text="{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}">
+      {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
+    </span>
+  {%- else -%}
+    <span id="revealtext" data-text="{{ site.title }}">
+      {{ site.title }}
+    </span>
+  {%- endif %}
+</h1>
+<script>
+(function () {
+  var el = document.getElementById('revealtext');
+  if (!el) return;
+
+  // If you want to respect reduced-motion, set to true:
+  var respectReducedMotion = true;
+  if (respectReducedMotion && window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    // Show static text
+    el.textContent = el.getAttribute('data-text') || el.textContent;
+    return;
+  }
+
+  var text = el.getAttribute('data-text') || el.textContent;
+  el.textContent = ''; // start clean
+
+  var baseDelay = 40;   // ms between characters
+  var startDelay = 120; // initial delay before starting
+
+  // Build spans per character
+  Array.prototype.forEach.call(text, function (ch, i) {
+    var s = document.createElement('span');
+    s.className = 'reveal-char';
+    s.textContent = (ch === ' ') ? '\u00A0' : ch; // preserve spaces
+    s.style.animationDelay = (startDelay + i * baseDelay) + 'ms';
+    el.appendChild(s);
+  });
+})();
+</script>
+
 
           <p class="desc">{{ page.subtitle }}</p>
         </header>
