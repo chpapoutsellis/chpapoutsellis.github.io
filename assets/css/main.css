@@ -1095,7 +1095,7 @@ body {
 }
 /* Respect reduced motion */
 @media (prefers-reduced-motion: reduce) {
-  .reveal-char {
+  .char-reveal {
     opacity: 1 !important;
     transform: none !important;
     animation: none !important;
