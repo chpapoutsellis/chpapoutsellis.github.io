@@ -7,15 +7,16 @@ layout: default
         <header class="post-header">
           <h1 class="post-title">
           {% if site.title == "blank" -%}
-          <span id="typewriter" data-text="{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}">
+           <span id="revealtext" data-text="{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}">
           {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
           </span>
           {%- else -%}
-          <span id="typewriter" data-text="{{ site.title }}">
+          <span id="revealtext" data-text="{{ site.title }}">
           {{ site.title }}
           </span>
-          {%- endif %}
+         {%- endif %}
          </h1>
+
           <p class="desc">{{ page.subtitle }}</p>
         </header>
 

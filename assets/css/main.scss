@@ -31,14 +31,19 @@ body {
   /* in case the theme sets background-color later, keep the gradient winning */
 }
 
-#typewriter {
+/* Per-character fade/slide-in */
+.reveal-char {
+  opacity: 0;
+  transform: translateY(8px);
   display: inline-block;
-  white-space: nowrap;
-  border-right: 2px solid currentColor;
-  overflow: hidden;
+  animation: charIn .6s ease forwards;
 }
-@keyframes caret-blink { 0%,49% { border-color: currentColor; } 50%,100% { border-color: transparent; } }
-.typewriter-done { animation: caret-blink 1s step-end infinite; }
+
+@keyframes charIn {
+  to { opacity: 1; transform: none; }
+}
+
+/* Respect reduced motion */
 @media (prefers-reduced-motion: reduce) {
-  #typewriter { border-right: none; }
+  .reveal-char { opacity: 1 !important; transform: none !important; animation: none !important; }
 }

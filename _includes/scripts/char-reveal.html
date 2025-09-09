@@ -1,0 +1,23 @@
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const el = document.getElementById('revealtext');
+  if (!el) return;
+
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const text = el.getAttribute('data-text') || el.textContent.trim();
+  if (reduce) { el.textContent = text; return; }
+
+  // Build spans with staggered delays
+  el.textContent = '';
+  const baseDelay = 40;   // ms between characters
+  const startDelay = 120; // initial delay
+
+  Array.from(text).forEach((ch, i) => {
+    const span = document.createElement('span');
+    span.className = 'reveal-char';
+    span.textContent = ch === ' ' ? '\u00A0' : ch; // keep spaces
+    span.style.animationDelay = (startDelay + i * baseDelay) + 'ms';
+    el.appendChild(span);
+  });
+});
+</script>
