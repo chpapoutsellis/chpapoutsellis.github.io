@@ -45,5 +45,5 @@ body {
 
 /* Respect reduced motion */
 @media (prefers-reduced-motion: reduce) {
-  .reveal-char { opacity: 1 !important; transform: none !important; animation: none !important; }
+  .char-reveal { opacity: 1 !important; transform: none !important; animation: none !important; }
 }
