@@ -1079,7 +1079,7 @@ body {
   /* in case the theme sets background-color later, keep the gradient winning */
 }
 
-/* Per-character fade/slide-in */
+/* Per-character appear */
 .reveal-char {
   opacity: 0;
   transform: translateY(8px);
@@ -1093,9 +1093,9 @@ body {
     transform: none;
   }
 }
-/* Respect reduced motion */
+/* Respect reduced motion (if enabled above) */
 @media (prefers-reduced-motion: reduce) {
-  .char-reveal {
+  .reveal-char {
     opacity: 1 !important;
     transform: none !important;
     animation: none !important;
