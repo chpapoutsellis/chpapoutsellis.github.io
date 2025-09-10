@@ -28,7 +28,7 @@ social: false  # includes social icons at the bottom of the page
 
 ## Research areas
 
-- Waves in fluids
+<i class="fas fa-water"></i> Waves in fluids
 - Mathematical modelling for fluid mechanics  
 - Numerical methods for Partial Differential Equations
 
