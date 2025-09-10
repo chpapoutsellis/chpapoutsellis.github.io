@@ -28,7 +28,7 @@ social: false  # includes social icons at the bottom of the page
 
 ## Research areas
 
-🌊  Ocean waves
+- Ocean waves
 - Mathematical modelling for fluid mechanics  
 - Numerical methods for Partial Differential Equations
 
