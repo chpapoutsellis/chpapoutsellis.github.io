@@ -37,7 +37,7 @@ social: false  # includes social icons at the bottom of the page
 - Mathematical modelling for fluid mechanics  
 - Numerical methods for Partial Differential Equations
 
-[CV](/assets/pdf/Document_2_CV_oct2025.pdf){:target="_blank" rel="noopener"}
+[full CV](/assets/pdf/Document_2_CV_oct2025.pdf){:target="_blank" rel="noopener"}
 
 You can contact me at christos.papoutsellis@enpc.fr
 
