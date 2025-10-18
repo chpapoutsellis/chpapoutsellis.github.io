@@ -71,7 +71,7 @@
   contents:
     - title: PhD in Marine Hydrodynamics
       institution: School of Naval Architecture and Marine Engineering, National Technical University of Athens,   Greece
-      thesis     : <a href="https://dspace.lib.ntua.gr/xmlui/handle/123456789/44741"> Nonlinear water waves over varying bathymetry; Theoretical and numerical study using variational methods.
+      thesis     : [Nonlinear water waves over varying bathymetry; Theoretical and numerical study using variational methods.](/assets/pdf/phd_thesis_Papoutsellis_final.pdf){:target="_blank" rel="noopener"}
       advisor    : Professor Gerassimos Athanassoulis
       year       : 2016
 
