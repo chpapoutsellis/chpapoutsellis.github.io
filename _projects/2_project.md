@@ -22,40 +22,35 @@ The horizontal barocilinic velocity of an internal tide corresponding to the $$M
 
 
 <style>
-  /* row container (only needed if you want multiple videos side-by-side) */
-  .iframe-container {
-    display: flex;          /* optional */
-    gap: 24px;              /* optional */
-    flex-wrap: wrap;        /* optional: wrap on small screens */
-    margin-bottom: 32px;
-  }
-
-  /* the ratio box for each video */
+  /* container for the video (one video) */
   .yt-wrap {
-    aspect-ratio: 16 / 9;   /* change to 9 / 16 for Shorts */
-    width: min(900px, 100%);/* responsive max width */
-    flex: 1 1 480px;        /* optional: play nicely in the flex row */
+    aspect-ratio: 16 / 9;           /* change to 9 / 16 for a vertical Short */
+    width: min(900px, 100%);        /* keep it from getting gigantic */
+    margin: 0 auto 1.5rem;          /* center + spacing */
+    background: #000;               /* prevents white flashes behind the player */
   }
-
   .yt-wrap iframe {
     width: 100%;
-    height: 100%;
+    height: 100% !important;        /* beat any global height rules */
     border: 0;
     display: block;
   }
 
-  /* If you have a global iframe height somewhere, force ours to fill the box */
-  /* .yt-wrap iframe { height: 100% !important; } */
+  /* Safety: do NOT globally style all iframes; undo any previous rules */
+  /* If you previously had `iframe { height: 600px }` or `border: 50;`, remove them. */
+  
+  /* Fallback for very old browsers without aspect-ratio */
+  @supports not (aspect-ratio: 1 / 1) {
+    .yt-wrap { position: relative; height: 0; padding-top: 56.25%; }
+    .yt-wrap iframe { position: absolute; inset: 0; }
+  }
 </style>
 
-<div class="iframe-container">
-  <div class="yt-wrap">
-    <iframe
-      src="https://www.youtube.com/embed/anhROpTJgms?rel=0&playsinline=1"
-      title="YouTube video player"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen></iframe>
-  </div>
+<div class="yt-wrap">
+  <iframe
+    src="https://www.youtube.com/embed/anhROpTJgms?rel=0&playsinline=1"
+    title="YouTube video player"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
 </div>
-
 
