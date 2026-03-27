@@ -9,7 +9,9 @@ nav_order: 3
 
 
 
-<h3 style="text-align: center;"><b>International peer-reviewed journals</b></h3>
+<h3 style="text-align: center; margin-bottom: 20px;">
+    <b>International peer-reviewed journals</b>
+</h3>
 
 <div class="publications">
     {% bibliography -f papers -q @article %}
