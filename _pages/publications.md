@@ -7,8 +7,6 @@ nav_order: 3
 ---
 
 
-
-
 <h3 style="text-align: center; margin-bottom: 60px;">
     <b>International peer-reviewed journals</b>
 </h3>
