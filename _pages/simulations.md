@@ -4,7 +4,7 @@ title: simulations
 permalink: /simulations/
 description: A growing collection of your cool projects.
 nav: false
-nav_order: 4
+nav_order: 6
 display_categories: 
 horizontal: false
 ---
