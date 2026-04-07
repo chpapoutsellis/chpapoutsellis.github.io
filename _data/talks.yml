@@ -1,26 +1,9 @@
 - title: 
-  type: time_table
+  type: list
   contents:
-    - title: <a href="https://youtu.be/rN49IG1hXrs?si=5pwFaGZU6qYGBC0z" target="_blank" rel="noopener">High-order modeling of long dispersive water waves</a>
-      institution: San Diego State University, Computational Science Research Center
-      year: "2025"
-
-    - title: Modeling free-surface and internal ocean waves
-      institution: Institut de Recherche sur les Phénomènes Hors Equilibre (Irphé), Marseille, France
-      year: "2025"
-
-    - title: A new high-order shallow water model with canonical Hamiltonian structure
-      institution: 18è Journées de l'Hydrodynamique, Poitiers, France
-      year: "2022"
-
-    - title: Assessment of the Melnikov method for the ship roll problem
-      institution: 18è Journées de l'Hydrodynamique, Poitiers, France
-      year: "2022"
-
-    - title: Internal tide generation due to topographically adjusted barotropic tide
-      institution: European Geosciences Union, General Assembly
-      year: "2021"
-
-    - title: "Internal tide generation with adjusted barotropic tidal flow: critical slopes and non-radiating topographies"
-      institution: Singularities and Attractors in Rotating and Stratified Fluids
-      year: "2022"
+    - '<a href="https://youtu.be/rN49IG1hXrs?si=5pwFaGZU6qYGBC0z" target="_blank" rel="noopener"><strong>High-order modeling of long dispersive water waves</strong></a>, San Diego State University, Computational Science Research Center (2025)'
+    - '<strong>Modeling free-surface and internal ocean waves</strong>, Institut de Recherche sur les Phénomènes Hors Equilibre (Irphé), Marseille, France (2025)'
+    - "<strong>A new high-order shallow water model with canonical Hamiltonian structure</strong>, 18è Journées de l'Hydrodynamique, Poitiers, France (2022)"
+    - "<strong>Assessment of the Melnikov method for the ship roll problem</strong>, 18è Journées de l'Hydrodynamique, Poitiers, France (2022)"
+    - '<strong>Internal tide generation due to topographically adjusted barotropic tide</strong>, European Geosciences Union, General Assembly (2021)'
+    - '<strong>Internal tide generation with adjusted barotropic tidal flow: critical slopes and non-radiating topographies</strong>, Singularities and Attractors in Rotating and Stratified Fluids (2022)'
