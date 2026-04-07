@@ -7,7 +7,6 @@ nav_order: 4
 ---
 
 <div class="post">
-
   <article>
     <div class="cv">
       {% for entry in site.data.talks %}
