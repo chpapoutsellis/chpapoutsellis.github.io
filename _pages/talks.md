@@ -6,25 +6,3 @@ nav: true
 nav_order: 4
 ---
 
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
-
-  <article>
-    <div class="cv">
-      {% for entry in site.data.talks %}
-        <div class="card mt-3 p-3">
-          <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
-          <div>
-            {% if entry.type == "time_table" %}
-              {% include cv/time_table.html %}
-            {% else %}
-              {{ entry.contents }}
-            {% endif %}
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  </article>
-</div>
