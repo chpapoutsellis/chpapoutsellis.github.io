@@ -7,13 +7,9 @@ nav_order: 4
 ---
 
 <div class="post">
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
 
   <article>
     <div class="card mt-3 p-3">
-      <h3 class="card-title font-weight-medium">Talks</h3>
       <ul>
         <li>
           <a href="https://youtu.be/rN49IG1hXrs?si=5pwFaGZU6qYGBC0z" target="_blank" rel="noopener">
