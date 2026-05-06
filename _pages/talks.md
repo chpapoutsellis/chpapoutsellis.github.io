@@ -6,7 +6,7 @@ nav: true
 nav_order: 4
 ---
 
-- Oblique Shoaling of Nonlinear Internal Waves: Spacetime Detection and Numerical Simulations
+- Oblique Shoaling of Nonlinear Internal Waves: Spacetime Detection and Numerical Simulations  
   Ocean Sciences Meeting AGU 2026, Glascow, Scotland, 2026.
 
 - [High-order modeling of long dispersive water waves](https://youtu.be/rN49IG1hXrs?si=5pwFaGZU6qYGBC0z)  
