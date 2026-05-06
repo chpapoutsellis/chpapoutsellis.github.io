@@ -21,19 +21,19 @@ nav_order: 4
 - Assessment of the Melnikov method for the ship roll problem  
   18e Journées de l’Hydrodynamique, Poitiers, France, 2022.
 
-- Internal tide generation with adjusted barotropic tidal flow: critical slopes and non-radiating topographies  
+- Internal tide generation with adjusted barotropic tidal flow: critical slopes and non-radiating topographies   
   Singularities and Attractors in Rotating and Stratified Fluids, 2022.
 
-- Internal tide generation due to topographically adjusted barotropic tide  
+- Internal tide generation due to topographically adjusted barotropic tide    
   European Geosciences Union General Assembly, 2021.
 
-- Fully nonlinear modeling of nearshore wave propagation including the effects of wave breaking
+- Fully nonlinear modeling of nearshore wave propagation including the effects of wave breaking  
   International Conference on Coastal Engineering, July 30 - August 3, 2018, Baltimore, Maryland, USA
 
-- Numerical simulation of non-linear water waves over variable bathymetry
+- Numerical simulation of non-linear water waves over variable bathymetry  
   4th International Young Scientists Conference on Computational Science, June 25 - July 3 2015, Athens, Greece
 
-- Nonlinear irrotational water waves over variable bathymetry. The Hamiltonian approach with a new efficient representation of the Dirichlet to Neumann operator
+- Nonlinear irrotational water waves over variable bathymetry. The Hamiltonian approach with a new efficient representation of the Dirichlet to Neumann operator  
   International Conference Days on Diffraction 2015, St. Petersburg, Russian Federation
 
 
