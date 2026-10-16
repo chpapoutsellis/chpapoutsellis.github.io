@@ -2,8 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle:  <p>Academic coordinator @ Department of 1st year (D1A), Ecole Nationale des Ponts et Chaussées (ENPC) -     Institut Polytechnique de Paris (IPP)</p>
-           <p>Researcher @  Laboratoire d’Hydraulique Saint-Venant (LHSV)</p>
+subtitle:  <p>Researcher @  Laboratoire d’Hydraulique Saint-Venant (LHSV), Ecole Nationale des Ponts et Chaussées (ENPC) - Institut Polytechnique de Paris (IPP)</p>
+          <p>Academic coordinator @ Master M1 OFFWIND, </p>
            <p>Adjunct research assistant professor @ Computational Science Research Center (CSRC) - San Diego State University (SDSU)</p> 
 # logos_html: |
 #   <p align="center">
