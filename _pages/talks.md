@@ -6,6 +6,9 @@ nav: true
 nav_order: 4
 ---
 
+- A new high-order shallow-water modeling approach: variational derivation and numerical simulations (invited)  
+  [15th AIMS Conference on Dynamical Systems, Differential Equations and Applications](https://aimsconference.org/conferences/2026/Program2026-V1.pdf), Athens, Greece, July 6-10, 2026.
+
 - Shallow-Water Modelling Via a Variational Approach: Derivation, Properties, and Numerics (invited)  
   [SIAM Conference on Nonlinear Waves and Coherent Structures (NW26)](https://meetings.siam.org/program.cfm?CONFCODE=NW26), May 26-29, 2026.
 
