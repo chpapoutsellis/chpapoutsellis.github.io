@@ -6,6 +6,9 @@ nav: true
 nav_order: 4
 ---
 
+- Shallow-Water Modelling Via a Variational Approach: Derivation, Properties, and Numerics (invited)  
+  [SIAM Conference on Nonlinear Waves and Coherent Structures (NW26)](https://meetings.siam.org/program.cfm?CONFCODE=NW26), May 26-29, 2026.
+
 - Oblique Shoaling of Nonlinear Internal Waves: Spacetime Detection and Numerical Simulations  
   Ocean Sciences Meeting AGU 2026, Glascow, Scotland, 2026.
 
